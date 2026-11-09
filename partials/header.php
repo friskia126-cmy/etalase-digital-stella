@@ -20,7 +20,7 @@ $isProfilePage = $isProfilePage ?? false;
 <header class="site-header">
   <div class="container nav-wrap">
     <a class="brand" href="<?= e(app_url('/')) ?>" aria-label="Etalase Digital Stella - Beranda">
-      <img src="<?= e(app_url('/public/images/logo.png')) ?>" alt="Logo Stella" class="brand-logo">
+      <img src="<?= e(app_url('/public/images/logo.png')) ?>" alt="<?= $isKaryaPage ? 'Logo Telkom' : 'Logo Stella' ?>" class="brand-logo">
       <span class="brand-copy"><strong>Etalase Digital Stella</strong><small>SMK Telkom Lampung</small></span>
     </a>
     <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Buka navigasi">☰</button>

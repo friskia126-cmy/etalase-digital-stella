@@ -103,7 +103,7 @@ require __DIR__ . '/partials/header.php';
   <section class="karya-hero">
     <div class="container karya-hero-inner">
       <div class="karya-hero-copy">
-        <span class="karya-eyebrow"><span class="karya-eyebrow-dot"></span> GALERI STELLA <span class="karya-sparkle" aria-hidden="true">✿</span></span>
+        <span class="karya-eyebrow"><span class="karya-eyebrow-dot"></span> GALERI STELLA <img class="karya-telkom-logo" src="<?= e(app_url('/public/images/logo.png')) ?>" alt="Logo Telkom"></span>
         <h1>Karya Digital</h1>
         <p>Jelajahi ide dan karya terbaik dari komunitas siswa Stella.</p>
         <?php if ($user): ?><a class="karya-add-button" href="<?= e(app_url('/project_tambah.php')) ?>"><span aria-hidden="true">+</span> Tambah karya</a><?php endif; ?>
