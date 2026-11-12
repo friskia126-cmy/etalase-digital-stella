@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 $databaseHost = getenv('DB_HOST') ?: '127.0.0.1';
 $databasePort = getenv('DB_PORT') ?: '3306';
-$databaseName = getenv('DB_NAME') ?: 'etalase_stella';
+$databaseName = getenv('DB_NAME') ?: 'etalase_stella2';
 $databaseUser = getenv('DB_USER') ?: 'root';
 $databasePassword = getenv('DB_PASSWORD') ?: '';
 

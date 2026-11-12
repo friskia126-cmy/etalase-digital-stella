@@ -7,7 +7,7 @@ if (PHP_SAPI !== 'cli') {
 }
 $host = getenv('DB_HOST') ?: '127.0.0.1';
 $port = getenv('DB_PORT') ?: '3306';
-$name = getenv('DB_NAME') ?: 'etalase_stella';
+$name = getenv('DB_NAME') ?: 'etalase_stella2';
 $user = getenv('DB_USER') ?: 'root';
 $password = getenv('DB_PASSWORD') ?: '';
 if (!preg_match('/^[a-zA-Z0-9_]+$/', $name)) {

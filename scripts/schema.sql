@@ -56,3 +56,8 @@ INSERT IGNORE INTO categories (nama) VALUES
   ('Programming'),
   ('Database Project'),
   ('Other Projects');
+
+INSERT IGNORE INTO users (nama, email, password, role) VALUES
+('Super Admin Stella', 'superadmin@stella.sch.id', '$2y$12$k.M7ujGwmTxt8zSISTj3..v5i7Y9wa7kNgKVsJrytUUxkHmyu41fK', 'super_admin'),
+('Admin Stella', 'admin@stella.sch.id', '$2y$12$NH8UacO52nw1uANV0yIkjONn.ufNLe8ttaH95APB6r3AF3mlbrim6', 'admin'),
+('Siswa Contoh', 'siswa@stella.sch.id', '$2y$12$y96PPqkE1PgGsoFr2LQCqer3iG0Lv44b070emlzKBfYz5.6LU/QaG', 'siswa');
